@@ -3,7 +3,7 @@
     padding : 0;
 }
 .logo{
-    width: 10%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,6 +179,21 @@
 .text-footer{
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
-    padding: 6px 0;
+    font-size: 16px;
+    padding: 20px 0;
+    color: white;
+}
+
+
+@media only screen and (max-width : 1093px) {
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .rightNav input{
+        width: 72%;
+    }
+
 }
