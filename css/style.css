@@ -20,6 +20,7 @@
     position: sticky;
     cursor: pointer;
     top: 0;
+   
 }
 .nav-list{
     margin: 0;
@@ -126,7 +127,6 @@
     cursor: pointer;
 }
 .section{
-    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,7 +183,20 @@
     padding: 20px 0;
     color: white;
 }
+.burger{
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 92%;
+    cursor: pointer;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
 
+}
 
 @media only screen and (max-width : 1093px) {
     .nav-list{
@@ -191,9 +204,28 @@
     }
     .navbar{
         flex-direction: column;
+        height: 450px;
+        transition:all 1s ease-out;
     }
-    .rightNav input{
-        width: 72%;
+    .rightNav{
+        width: min-content;
+        text-align: center;
+    }
+
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 69px;
+
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .box-main{
+        max-width: 100%;
+        flex-direction: column-reverse;
     }
 
 }
+
