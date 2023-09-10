@@ -134,6 +134,9 @@
     margin: auto;
     font-family: fangsong;
 }
+.left{
+    flex-direction: row-reverse;
+}
 .paras{
     padding: 0 25px
 }
@@ -149,7 +152,7 @@
 }
 .contact{
     background-color: rgb(244, 241, 241);
-    height: 90vh;
+    height: 600px;
 
 }
 .c1{
@@ -159,8 +162,8 @@
     font-size: 40px;
 }
 .form{
-    max-width: 600px;
     margin: auto;
+    max-width: 50%;
 }
 .form input{
     margin: 25px 0;
@@ -225,6 +228,21 @@
     .box-main{
         max-width: 100%;
         flex-direction: column-reverse;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .paras{
+        padding: 0px 0px;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .btn{
+        text-align: center;
     }
 
 }
