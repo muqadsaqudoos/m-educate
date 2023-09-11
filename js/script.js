@@ -10,3 +10,7 @@ burger.addEventListener('click', ()=>{
     navList.classList.toggle('v-class-resp');
     rightNav.classList.toggle('v-class-resp');
 })
+
+function myfunction(){
+    alert("Welcome to M-Educate!")
+}
