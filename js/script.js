@@ -12,5 +12,8 @@ burger.addEventListener('click', ()=>{
 })
 
 function myfunction(){
+    alert("Congratulation! Your request has been submitted.")
+}
+function myfunction2(){
     alert("Welcome to M-Educate!")
 }
