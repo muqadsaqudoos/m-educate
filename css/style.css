@@ -281,22 +281,26 @@
     display: block;
     font-size: 18px;
     line-height: 1.7;
-
 }
-.works{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.border{
+    height: 80px;
+    width: 200px;
+    border: 5px solid white;
+    margin: 46px 220px;
+    
+    
+    
 }
-.ourworks{
-    background: none;
-    block-size: auto;
-    padding: 15px 30px;
-    list-style: none;
-
-}
-.ourworksa{
+.border a{
     text-decoration: none;
     color: white;
+    margin-top: 13%;
+    justify-content: center;
+    display: flex;
+    font-size: 150%;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -16px;
 }
