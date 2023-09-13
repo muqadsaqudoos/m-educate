@@ -246,5 +246,57 @@
         text-align: center;
     }
 
-}
 
+}
+.aboutbg{
+
+    background: rgba(00, 00, 00, 0.7) url('../image/pkstd.jpg');
+    background-size: cover ;
+    background-blend-mode: darken;
+
+    
+}
+.aboutfirstsec{
+    height: 130vh;
+}
+.aboutus{
+    color: white;
+    padding: 50px 70px;
+    max-width: 40%;
+}
+.h1{
+    margin-top: 30px;
+    font-size: 50px;
+    text-shadow: 0 1px 0 grey;
+}
+.para1{
+    font-size: 30px;
+    font-family: 'OpenSansLightRegular', arial, sans-serif;
+    display: block;
+    margin-top: 10px;
+}
+.para2{
+   
+    margin-top: 10px;
+    display: block;
+    font-size: 18px;
+    line-height: 1.7;
+
+}
+.works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ourworks{
+    background: none;
+    block-size: auto;
+    padding: 15px 30px;
+    list-style: none;
+
+}
+.ourworksa{
+    text-decoration: none;
+    color: white;
+}
