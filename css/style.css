@@ -298,9 +298,60 @@
     justify-content: center;
     display: flex;
     font-size: 150%;
+    
 }
 .div1{
     display: flex;
     justify-content: space-between;
     margin: 0 -16px;
 }
+.border a:hover{
+    color: darkgray;
+
+}
+.howitwork-sec{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    
+    
+}
+.howitworks-paras{
+    float: left;
+    margin-right: 40px;
+}
+.howitwork-sec-big-text{
+    margin-top: 30px;
+    font-size: 60px;
+    color: #8dc63f;
+    text-shadow: 0 1px 0 #fff;
+}
+.donation-box{
+    border: 5px solid #8dc63f;
+    padding-top: 18px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.money{
+    font: 52px/58px 'OpenSansExtraboldRegular', arial, sans-serif;
+    color: #111;
+    text-shadow: 1px 1px 0 rgba(255,255,255,.75)
+}
+.d1{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.dt{
+    float: left;
+    clear: left;
+    width: 124px;
+    margin-right: 10px;
+    text-align: right;
+    font-family: 'OpenSansBold', arial, sans-serif;
+}
+.dd{
+    margin: 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
