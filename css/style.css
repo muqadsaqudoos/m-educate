@@ -309,49 +309,67 @@
     color: darkgray;
 
 }
-.howitwork-sec{
-    display: flex;
-    align-items: center;
-    margin: 50px 0px;
-    
-    
+.div1 a{
+    cursor: pointer;
 }
-.howitworks-paras{
-    float: left;
-    margin-right: 40px;
+.servicesbg{
+    background-color: rgb(210, 205, 205) !important;
+ 
 }
-.howitwork-sec-big-text{
-    margin-top: 30px;
-    font-size: 60px;
-    color: #8dc63f;
-    text-shadow: 0 1px 0 #fff;
-}
-.donation-box{
-    border: 5px solid #8dc63f;
-    padding-top: 18px;
-    padding-bottom: 30px;
+.whatwedo{
     text-align: center;
 }
-.money{
-    font: 52px/58px 'OpenSansExtraboldRegular', arial, sans-serif;
-    color: #111;
-    text-shadow: 1px 1px 0 rgba(255,255,255,.75)
+.main1{
+    width: 100%;
+    min-height: 380px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
 }
-.d1{
+.service{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    z-index:1 ;
+}
+.service-logo{
+    width: 130px;
+    height: 130px;
+    border-radius:50% ;
+    margin: -90px auto 0;
+    border: 18px solid  rgb(210, 205, 205);
+    background: white;
+}
+.service-logo img{
+    width: 50px;
     margin-top: 20px;
-    font-size: 14px;
 }
-.dt{
-    float: left;
-    clear: left;
-    width: 124px;
-    margin-right: 10px;
-    text-align: right;
-    font-family: 'OpenSansBold', arial, sans-serif;
+.service h4{
+    height: 35px;
+    width: 80%;
+    background: white;
+    margin: 50px auto;
+    position: relative;
 }
-.dd{
-    margin: 0;
-    text-align: left;
-    text-transform: uppercase;
+.service h4::after{
+    content: '' ;
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right, lightgray, gray );
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index:-1 ;
 }
-
+.service h4::before{
+    content: '' ;
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right, gray, lightgray );
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+}
